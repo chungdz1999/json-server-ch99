@@ -1,0 +1,28 @@
+# Categories
+
+# @name getAllCategories
+GET http://localhost:3000/api/categories
+
+###
+
+# @name addNewCategory
+POST http://localhost:3000/api/categories
+Content-Type: application/json
+
+{}
+
+###
+
+# @name updateCategory
+PATCH http://localhost:3000/api/categories/fd85521c-a83d-40a8-81e8-7d69625e2628
+Content-Type: application/json
+
+{
+    "name": "Kem mới"
+}
+
+
+### 
+
+# @name removeCategory
+DELETE http://localhost:3000/api/categories/8DUNgFK

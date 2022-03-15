@@ -1,0 +1,47 @@
+# Products
+@baseUrl=http://localhost:3000/api
+
+@resourceName=products
+
+# Products
+
+# @name getAllProducts
+GET http://localhost:3000/api/products
+
+###
+
+# @name fillterProducts
+
+GET http://localhost:3000/api/products?price_lte=50
+
+###
+
+# @name pagination
+
+GET http://localhost:3000/api/products?_page=1&_limit=5
+
+
+
+###
+
+# @name addNewProduct
+POST http://localhost:3000/api/products
+Content-Type: application/json
+
+{}
+
+###
+
+# @name updateProduct
+PATCH http://localhost:3000/api/products/68c76935-fd4f-4688-904a-e5bb84c19ed2
+Content-Type: application/json
+
+{
+    "thumbnailUrl": "https://cdn.beptruong.edu.vn/wp-content/uploads/2019/02/thuc-uong-giai-nhiet.jpg"
+}
+
+
+### 
+
+# @name removeProduct
+DELETE http://localhost:3000/api/products
