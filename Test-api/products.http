@@ -33,11 +33,11 @@ Content-Type: application/json
 ###
 
 # @name updateProduct
-PATCH http://localhost:3000/api/products/68c76935-fd4f-4688-904a-e5bb84c19ed2
+PATCH http://localhost:3000/api/products/f87be5dd-b8a9-4931-a319-92cffdc0a719
 Content-Type: application/json
 
 {
-    "thumbnailUrl": "https://cdn.beptruong.edu.vn/wp-content/uploads/2019/02/thuc-uong-giai-nhiet.jpg"
+    "thumbnailUrl": "https://cdn.huongnghiepaau.com/wp-content/uploads/2020/02/kem-dua-hau-mat-lanh.jpg"
 }
 
 
