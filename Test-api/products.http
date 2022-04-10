@@ -33,11 +33,12 @@ Content-Type: application/json
 ###
 
 # @name updateProduct
-PATCH http://localhost:3000/api/products/f87be5dd-b8a9-4931-a319-92cffdc0a719
+PATCH {{baseUrl}}/{{resourceName}}/10fc5135-a94a-4617-aeb5-787d8fcd7113
 Content-Type: application/json
 
 {
-    "thumbnailUrl": "https://cdn.huongnghiepaau.com/wp-content/uploads/2020/02/kem-dua-hau-mat-lanh.jpg"
+   "name": "bánh trán 6",
+   "price": 50
 }
 
 
