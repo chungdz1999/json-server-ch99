@@ -33,12 +33,14 @@ Content-Type: application/json
 ###
 
 # @name updateProduct
-PATCH {{baseUrl}}/{{resourceName}}/10fc5135-a94a-4617-aeb5-787d8fcd7113
+PATCH {{baseUrl}}/{{resourceName}}/3ad735cd-d6dd-47c2-a001-dbd790d4986c
 Content-Type: application/json
 
 {
-   "name": "bánh trán 6",
-   "price": 50
+   "name": "trà ổi",
+   "price": 15,
+   "thumbnailUrl": "https://cdn.dayphache.edu.vn/wp-content/uploads/2021/03/tra-oi-hong-thoang-thoang-hoa-nhai.jpg"
+  
 }
 
 
